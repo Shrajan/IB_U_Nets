@@ -103,7 +103,7 @@ class Predictor():
     def get_train_options(self, opt=None, model_checkpoint=None):
         opt.normalize = model_checkpoint["normalize"]
         opt.patch_shape = model_checkpoint["patch_shape"]
-        opt.n_kernels = model_checkpoint["n_kernels"]
+        opt.init_filters = model_checkpoint["init_filters"]
         opt.clip = model_checkpoint["clip"]
         opt.seed = model_checkpoint["seed"]
         opt.model_name = model_checkpoint["model_name"]
