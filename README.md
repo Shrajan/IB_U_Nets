@@ -291,9 +291,11 @@ cd nnUNet
 
 ## Citation ##
 
+```bibtex
 @article{bhandary2022ib,
   title={IB-U-Nets: Improving medical image segmentation tasks with 3D Inductive Biased kernels},
   author={Bhandary, Shrajan and Babaiee, Zahra and Kostyszyn, Dejan and Fechter, Tobias and Zamboglou, Constantinos and Grosu, Anca-Ligia and Grosu, Radu},
   journal={arXiv preprint arXiv:2210.15949},
   year={2022}
 }
+```
