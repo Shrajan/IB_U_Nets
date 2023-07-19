@@ -288,3 +288,12 @@ cd nnUNet
   2. Move the `nnUNetTrainerV2_IB.py` file into this folder: `nnunet/training/network_training/`.
 * Now install the framework library using the `pip install -e .` command.
 * That is it! Now you are ready to use the `IB-nnU-Net` model using the `nnUNetTrainerV2_IB` trainer.
+
+## Citation ##
+
+@article{bhandary2022ib,
+  title={IB-U-Nets: Improving medical image segmentation tasks with 3D Inductive Biased kernels},
+  author={Bhandary, Shrajan and Babaiee, Zahra and Kostyszyn, Dejan and Fechter, Tobias and Zamboglou, Constantinos and Grosu, Anca-Ligia and Grosu, Radu},
+  journal={arXiv preprint arXiv:2210.15949},
+  year={2022}
+}
