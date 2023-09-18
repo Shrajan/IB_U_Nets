@@ -75,8 +75,8 @@ class Predictor():
         self.current_checkpoint = self.fold_0_checkpoint
 
     def get_test_file_names(self, data_root):
-        #test_files = subfiles(data_root, suffix=".mhd")
-        test_files = os.listdir(data_root)
+        # Looks for three types of medical image extensions.
+        test_files = subfiles(data_root, suffix=".nrrd") + subfiles(data_root, suffix=".nii.gz") + subfiles(data_root, suffix=".mhd")
         test_files.sort()
         return test_files
 
